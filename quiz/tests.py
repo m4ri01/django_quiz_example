@@ -49,15 +49,15 @@ class TestQuiz(TestCase):
         self.quiz2 = Quiz.objects.create(id=2,
                                          title='test quiz 2',
                                          description='d2',
-                                         url='t q2')
+                                         url='t-q2')
         self.quiz3 = Quiz.objects.create(id=3,
                                          title='test quiz 3',
                                          description='d3',
-                                         url='t   q3')
+                                         url='t-q3')
         self.quiz4 = Quiz.objects.create(id=4,
                                          title='test quiz 4',
                                          description='d4',
-                                         url='T-!�$%^&*Q4')
+                                         url='t-q4')
 
         self.question1 = MCQuestion.objects.create(id=1,
                                                    content='squawk')
